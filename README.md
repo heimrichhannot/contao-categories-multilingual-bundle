@@ -5,3 +5,11 @@ This bundle acts as a bridge between [heimrichhannot/contao-categories-bundle](h
 ## Features
 
 - adds multilinguality support for [heimrichhannot/contao-categories-bundle](https://github.com/heimrichhannot/contao-categories-bundle)
+
+## Installation
+
+Simply install using composer: `composer require contao-categories-multilingual-bundle`
+
+## Configuration
+
+1. Some basic configuration is defined in `tl_category` in this module. Please refer to [dc_multilingual's docs](https://github.com/terminal42/contao-DC_Multilingual/blob/master/README.md) for further info how to override supported languages, fallback language, ...

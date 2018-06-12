@@ -8,16 +8,8 @@
 
 namespace HeimrichHannot\CategoriesMultilingualBundle;
 
-use HeimrichHannot\CategoriesMultilingualBundle\DependencyInjection\HeimrichHannotContaoCategoriesMultilingualExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class HeimrichHannotContaoCategoriesMultilingualBundle extends Bundle
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function getContainerExtension()
-    {
-        return new HeimrichHannotContaoCategoriesMultilingualExtension();
-    }
 }
