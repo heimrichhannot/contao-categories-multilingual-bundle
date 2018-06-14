@@ -13,3 +13,7 @@ Simply install using composer: `composer require contao-categories-multilingual-
 ## Configuration
 
 Some basic configuration is defined in `tl_category` in this module. Please refer to [dc_multilingual's docs](https://github.com/terminal42/contao-DC_Multilingual/blob/master/README.md) for further info how to override supported languages, fallback language, ...
+
+## Known issues
+
+- overridable fields in translated records (backend) -> initially selector field (e.g. `overrideJumpTo`) and subpalette field (e.g. `jumpTo`) are visible; after saving it works as expected
