@@ -7,6 +7,12 @@ $dca = &$GLOBALS['TL_DCA']['tl_category'];
  */
 $dca['config']['dataContainer'] = 'Multilingual';
 
+// unset alias index...
+unset($dca['config']['sql']['keys']['alias']);
+
+// ... and set a concatenated one
+$dca['config']['sql']['keys']['alias,language'] = 'index';
+
 /**
  * Fields
  */
@@ -17,6 +23,7 @@ $dca['fields']['jumpTo']['eval']['translatableFor']         = '*';
 $dca['fields']['alias']['eval']['translatableFor']          = '*';
 $dca['fields']['alias']['eval']['isMultilingualAlias']      = true;
 $dca['fields']['alias']['eval']['generateAliasFromField']   = 'title';
+$dca['fields']['alias']['eval']['unique']                   = false;
 unset($dca['fields']['alias']['save_callback']);
 
 $dca['fields']['langPid']['sql']  = "int(10) unsigned NOT NULL default '0'";

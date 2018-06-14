@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.0.4] - 2018-06-14
+
+#### Fixed
+- index alias issue
+
 ## [0.0.3] - 2018-06-14
 
 #### Added
