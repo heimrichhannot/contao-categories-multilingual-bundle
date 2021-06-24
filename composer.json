@@ -6,7 +6,8 @@
   "require": {
     "php": ">=7.0.0",
     "contao/core-bundle": "^4.4",
-    "heimrichhannot/contao-categories-bundle": "^1.0"
+    "heimrichhannot/contao-categories-bundle": "^1.0",
+    "terminal42/dc_multilingual": "^4.1"
   },
   "require-dev": {
     "contao/manager-plugin": "^2.0",

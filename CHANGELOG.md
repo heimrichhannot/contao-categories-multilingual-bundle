@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.0] - 2021-06-24
+
+- added dc_multilingual dependency
+
 ## [0.0.4] - 2018-06-14
 
 #### Fixed
